@@ -12,3 +12,10 @@ RUN echo "Hello DevOps Techies - Dockerfile" > c:\inetpub\wwwroot\index.html
 
 # Sets a command or process that will run each time a container is run from the new image.
 CMD [ "cmd" ]
+
+
+# How to build an image of the above
+# docker build -t w2019-iis-sample-page .
+
+# How to run a container
+# docker run -ti w2019-iis-sample-page
