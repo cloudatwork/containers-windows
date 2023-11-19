@@ -19,3 +19,11 @@ CMD [ "cmd" ]
 
 # How to run a container
 # docker run -ti w2019-iis-sample-page
+
+# Once you are in the container start powershell
+# powershell.exe
+
+# Find what features are installed
+# get-windowsfeature
+
+
