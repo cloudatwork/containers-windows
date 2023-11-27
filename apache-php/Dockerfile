@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/windows/servercore:2019
+FROM mcr.microsoft.com/windows/servercore:ltsc2019
 
 LABEL Description="Apache-PHP" Vendor1="Apache Software Foundation" Version1="2.4.58" Vendor2="The PHP Group" Version2="8.3.0"
 
